@@ -10,11 +10,6 @@
   ],
   "main": "lib/mint-ui.common.js",
   "style": "lib/style.css",
-  "files": [
-    "lib",
-    "src",
-    "packages"
-  ],
   "scripts": {
     "dev": "npm run bootstrap && npm run build:entry && cooking watch -c build/cooking.demo.js -p",
     "bootstrap": "yarn || npm i",
@@ -73,8 +68,8 @@
     "vue-router": "^2.0.0",
     "vue-template-compiler": "^2.3.2",
     "vue-template-es2015-compiler": "^1.4.2",
-    "webpack": "beta",
-    "webpack-dev-server": "beta",
+    "webpack": "2.2.0-rc.3",
+    "webpack-dev-server": "2.2.0-rc.0",
     "webpack-shell-plugin": "^0.4.3"
   }
 }
